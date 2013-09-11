@@ -12,6 +12,7 @@
 
 
 // Server & Port Settings
+
 $server  = 'martinschurig.com'; // change this to the ip or hostname you want to check
 $ports   = array(80,443,22,25,993,995); // enter all ports (services) you want you check
 
@@ -19,6 +20,7 @@ $ports   = array(80,443,22,25,993,995); // enter all ports (services) you want y
 class StatusCheck {
     
     // Notification Settings
+    
     private $alert_email     = 'ENTER_EMail_Here';
     private $pushover_token  = 'ENTER_Pushover_Token';
     private $pushover_user   = 'ENTER_Pushover_User_Key';
